@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Santuário dos Livros</title>
+  
+  <link rel="stylesheet" href="biblioteca.css">
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+</head>
+
+<body>
+
+  <header>
+    <div class="logo">
+        <img src="bibliotecaimg/logo.png" alt="Ícone Santuário">
+        Santuário dos Livros
+    </div>
+
+    <nav>
+      <ul>
+        <li><a href="#">Início</a></li>
+        <li class="dropdown">
+          <a href="#">Nosso acervo ▾</a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Para Estudar</a></li>
+            <li><a href="#">Para Relaxar</a></li>
+            <li><a href="#">Para Refletir</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+
+    <div class="hero-left">
+      <h1>Santuário dos Livros</h1>
+      
+      <p class="hero-subtitle">
+        Seu espaço digital de leitura sempre ao seu alcance.
+      </p>
+
+      <p class="hero-text">
+        O Santuário dos Livros é um espaço digital pensado para quem ama aprender, explorar e descobrir.
+        Um acervo virtual sempre ao seu alcance, onde você estiver, com títulos de diversas áreas, estilos e editoras parceiras.
+      </p>
+
+      <div class="buttons">
+        <a href="#" class="btn">Conheça</a>
+      </div>
+    </div>
+
+    <div class="hero-center">
+       <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            
+            <div class="swiper-slide">
+              <a href="https://ia800500.us.archive.org/16/items/codigo-limpo-robert-martin/codigo-limpo-completo-pt_text.pdf" target="_blank">
+                <img src="bibliotecaimg/livro1.png" 
+                     data-titulo="Código Limpo" 
+                     data-autor="Robert C. Martin" 
+                     data-stars="★★★★★ (501)">
+              </a>
+            </div>
+
+            <div class="swiper-slide">
+              <a href="https://www.kufunda.net/publicdocs/Entendendo%20Algoritmos%20Um%20guia%20ilustrado%20para%20programadores%20e%20outros%20curiosos%20(Aditya%20Y.%20Bhargava).pdf" target="_blank">
+                <img src="bibliotecaimg/livro2.png" 
+                     data-titulo="Entendendo Algoritmos" 
+                     data-autor="Aditya Y. Bhargava" 
+                     data-stars="★★★★★ (120)">
+              </a>
+            </div>
+
+            <div class="swiper-slide">
+                <img src="bibliotecaimg/livro3.png" 
+                     data-titulo="Estruturas de Dados" 
+                     data-autor="Thiago Leite" 
+                     data-stars="★★★★★ (85)">
+            </div>
+
+            <div class="swiper-slide">
+                <img src="bibliotecaimg/livro4.png" 
+                     data-titulo="Harry Potter e a Pedra Filosofal" 
+                     data-autor="J.K. Rowling" 
+                     data-stars="★★★★★ (105)">
+            </div>
+
+            <div class="swiper-slide">
+              <a href="https://faroeditorial.com.br/site2020/wp-content/uploads/2020/09/Mini-Livro-Pequeno-Pr%C3%ADncipe.pdf" target="_blank">
+                  <img src="bibliotecaimg/livro5.png" 
+                       data-titulo="O Pequeno Príncipe" 
+                       data-autor="Antoine de Saint-Exupéry" 
+                       data-stars="★★★★★ (230)">
+              </a>
+          </div>
+
+            <div class="swiper-slide">
+                <img src="bibliotecaimg/livro6.png" 
+                     data-titulo="O Poder do Agora" 
+                     data-autor="Eckhart Tolle" 
+                     data-stars="★★★★★ (310)">
+            </div>
+
+
+          </div>
+
+          <div class="book-info-overlay">
+            <div class="info-stars" id="display-stars"></div>
+            <div class="info-title" id="display-title"></div>
+            <div class="info-author" id="display-author"></div>
+          </div>
+
+          <div class="swiper-pagination"></div>
+       </div>
+    </div>
+    </section>
+
+  <section class="info-section">
+    <h2 class="info-title">Conhecimento acessível, futuro garantido.</h2>
+    <p class="info-subtitle">Descubra livros para todos os momentos! No Santuário dos Livros, você encontra de tudo: estudos, histórias, curiosidades e diversão.</p>
+
+    <div class="info-images">
+      <div class="info-img">
+        <img src="bibliotecaimg/categoriaaprendizado.png" alt="Icone aprendizado">
+      </div>
+      <div class="info-img">
+        <img src="bibliotecaimg/categoriarelaxar.png" alt="Icone relaxar">
+      </div>
+      <div class="info-img">
+        <img src="bibliotecaimg/categoriarefletir.png" alt="Icone refletir">
+      </div>
+    </div>
+
+    <h3 class="info-acervo">+ de 1.000 títulos disponíveis</h3>
+  </section>
+
+  <section class="acervo-destaque-pearson">
+    <div class="acervo-visual">
+      <div class="diamond-badge">
+        <div class="diamond-content">
+          <span class="big-number">+1 mil</span>
+          <span class="label">títulos disponíveis</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="acervo-content">
+      <h2>
+          <span class="destaque-titulo">Seu acervo virtual</span><br>
+          sempre atualizado para todos <br>os gostos e momentos!
+      </h2>
+      
+      <p>
+        O Santuário dos Livros nasce para inovar a forma de ler e aprender.
+        Com uma plataforma acessível e interativa, oferecemos conteúdos variados
+        que ajudam estudantes e leitores de todos os tipos.
+      </p>
+
+      <a href="#" class="btn-acervo">Conheça nosso Acervo</a>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer-content">
+      <div class="footer-col">
+        <h2 class="footer-logo">Santuário dos Livros</h2>
+        <p class="footer-desc">
+          Conhecimento acessível, organizado e pensado para facilitar sua jornada de aprendizado.
+        </p>
+        <div class="footer-social">
+          <a href="#" class="social-icon" aria-label="Facebook">
+            <i class="fa-brands fa-facebook-f"></i>
+          </a>
+          <a href="#" class="social-icon" aria-label="Instagram">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+          <a href="#" class="social-icon" aria-label="Twitter">
+            <i class="fa-brands fa-x-twitter"></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="footer-col">
+        <h3 class="footer-title">Links úteis</h3>
+        <ul>
+          <li><a href="#">Início</a></li>
+          <li><a href="#">Quem somos</a></li>
+          <li><a href="#">Nosso acervo</a></li>
+          <li><a href="#">Contato</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h3 class="footer-title">Informações</h3>
+        <ul>
+          <li><a href="#">Política de privacidade</a></li>
+          <li><a href="#">Termos de uso</a></li>
+          <li><a href="#">Ajuda</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      © 2025 Santuário dos Livros — Todos os direitos reservados.
+    </div>
+  </footer>
+
+  <script src="biblioteca.js"></script>
+
+</body>
+</html>
